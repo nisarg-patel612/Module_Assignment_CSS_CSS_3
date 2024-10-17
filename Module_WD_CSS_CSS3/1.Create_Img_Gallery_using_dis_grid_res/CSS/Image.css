@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    background-color: black;
+}
+/* First Column Image Container */
+.main-image-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 29%;
+    width: 121%;
+    margin-bottom: -21%;
+}
+.windows{
+    display: block;
+    width: 178%;
+    height: 55%;
+    object-fit: cover;
+}
+.customize{
+    display: block;
+    width: 50%;
+    height: 55%;
+    object-fit: cover;
+}
+/* Second Column Image Container */
+.main-second-image-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5%;
+    width: 121%;
+}
+
+img.girl-image {
+    display: block;
+    width: 59%;
+    height: 83%;
+    object-fit: cover;
+}
+
+img.nature-image {
+    display: block;
+    width: 147%;
+    height: 83%;
+    margin-left: -53%;
+    object-fit: cover;
+}
+
+img.wallpaper {
+    display: block;
+    width: 59%;
+    height: 83%;
+    margin-left: -18%;
+    object-fit: cover;
+}
+/* Third Column Image Container */
+.main-third-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5%;
+    margin-top: -3%;
+    width: 121%;
+}
+.couple-image {
+    display: block;
+    width: 80%;
+    height: 79%;
+    object-fit: cover;
+}
+.nature-images {
+    display: block;
+    width: 91%;
+    height: 79%;
+    margin-left: -28%;
+    object-fit: cover;
+}
+/* Fourth Column Image Container */
+.main-fourth-image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+    margin-top: -4%;
+    width: 121%;
+}
+.girls-image{
+    display: block;
+    width: 89%;
+    height: 94%;
+    object-fit: cover;
+}
+.natures-image{
+    display: block;
+    width: 94%;
+    height: 94%;
+    margin-left: -23%;
+    object-fit: cover;
+}
+.wallpapers{
+    display: block;
+    width: 82%;
+    height: 94%;
+    margin-left: -41%;
+    object-fit: cover;
+}
+/* Sidebar Content and design */
+.sidebar-container {
+    width: -3%;
+    height: auto;
+    background: black;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 37px;
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+/* Facebook , Twitter and Github icons */
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 24%;
+}
